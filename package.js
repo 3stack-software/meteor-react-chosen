@@ -1,6 +1,6 @@
 Package.describe({
   name: '3stack:react-chosen',
-  version: '1.4.2',
+  version: '1.4.2_1',
   summary: 'A simple react helper for <ReactChosen />',
   git: 'https://github.com/3stack-software/meteor-react-chosen',
   documentation: 'README.md'
