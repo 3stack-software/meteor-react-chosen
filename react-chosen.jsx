@@ -7,7 +7,7 @@ ReactChosen = React.createClass({
     onChange: React.PropTypes.func
   },
   select(){
-    return $(React.findDOMNode(this.refs.select))
+    return $(ReactDOM.findDOMNode(this.refs.select))
   },
   componentDidMount() {
     var opts = _.extend({}, this.props.chosenOpts);
